@@ -32,7 +32,8 @@
     "npm-check-updates": "^17.1.16",
     "pg": "8.14.1",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.0",
