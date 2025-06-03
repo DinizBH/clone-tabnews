@@ -18,7 +18,8 @@
     "lint:prettier:fix": "prettier --write .",
     "lint:eslint:check": "next lint --dir .",
     "prepare": "husky",
-    "commit": "cz"
+    "commit": "cz",
+    "watchJson": "curl -s http://localhost:3000/api/v1/status | python3 -m json.tool --no-ensure-ascii"
   },
   "author": "",
   "license": "MIT",
@@ -28,6 +29,7 @@
     "dotenv": "16.4.7",
     "dotenv-expand": "12.0.1",
     "next": "15.2.4",
+    "next-connect": "1.0.0",
     "node-pg-migrate": "7.9.1",
     "npm-check-updates": "^17.1.16",
     "pg": "8.14.1",
