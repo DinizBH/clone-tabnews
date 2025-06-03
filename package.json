@@ -18,7 +18,8 @@
     "lint:prettier:fix": "prettier --write .",
     "lint:eslint:check": "next lint --dir .",
     "prepare": "husky",
-    "commit": "cz"
+    "commit": "cz",
+    "watchJson": "curl -s http://localhost:3000/api/v1/status | python3 -m json.tool --no-ensure-ascii"
   },
   "author": "",
   "license": "MIT",
